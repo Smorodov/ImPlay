@@ -1,0 +1,10 @@
+^Z:\PROJECTS2022\IMPLAY\THIRD_PARTY\GLAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SZ:/Projects2022/ImPlay -BZ:/Projects2022/ImPlay/vs2022 --check-stamp-file Z:/Projects2022/ImPlay/vs2022/third_party/glad/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

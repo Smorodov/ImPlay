@@ -49,3 +49,6 @@ build
 
 # VSCode files
 .vscode/
+
+vs2022/*.*
+build/*.*

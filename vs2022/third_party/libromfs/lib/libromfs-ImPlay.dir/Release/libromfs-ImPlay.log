@@ -1,0 +1,11 @@
+﻿  Generating libromfs_resources.cpp
+  libromfs: Resource Folder: Z:/Projects2022/ImPlay/resources/romfs
+  libromfs: Bundling resource: icon.png
+  libromfs: Bundling resource: lang\en-US.json
+  libromfs: Bundling resource: lang\it-IT.json
+  libromfs: Bundling resource: lang\zh-Hans.json
+  libromfs: Bundling resource: mpv\input.conf
+  libromfs: Bundling resource: mpv\mpv.conf
+Z:\VS2022\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): warning MSB8064: Custom build for item "Z:\Projects2022\ImPlay\vs2022\CMakeFiles\215ab387876055cde6fe460b229ca163\libromfs_resources.cpp.rule" succeeded, but specified dependency "z:\projects2022\implay\third_party\libromfs\generator" does not exist. This may cause incremental build to work incorrectly.
+  libromfs_resources.cpp
+  libromfs-ImPlay.vcxproj -> Z:\Projects2022\ImPlay\build\Release\libromfs-ImPlay.lib

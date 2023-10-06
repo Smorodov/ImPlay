@@ -304,6 +304,7 @@ void Player::loadFonts() {
   cfg.SizePixels = fontSize;
   ImWchar fa_range[] = {ICON_MIN_FA, ICON_MAX_FA, 0};
   const ImWchar *font_range = config->buildGlyphRanges();
+  
   io.Fonts->AddFontFromMemoryCompressedTTF(fa_compressed_data, fa_compressed_size, iconSize, &cfg, fa_range);
   cfg.MergeMode = true;
   if (fileExists(config->Data.Font.Path))

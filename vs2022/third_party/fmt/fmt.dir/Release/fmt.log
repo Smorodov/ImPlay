@@ -1,0 +1,5 @@
+﻿  Building Custom Rule Z:/Projects2022/ImPlay/third_party/fmt/CMakeLists.txt
+  format.cc
+  os.cc
+  Generating Code...
+  fmt.vcxproj -> Z:\Projects2022\ImPlay\vs2022\third_party\fmt\fmt.dir\Release\fmt.lib

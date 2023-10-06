@@ -2,14 +2,14 @@
 [![GitHub Releases](https://img.shields.io/github/downloads/tsl0922/ImPlay/total)](https://github.com/tsl0922/ImPlay/releases)
 ![GitHub](https://img.shields.io/github/license/tsl0922/ImPlay)
 
-# ImPlay
+# ImPlay (fixed for MSVS)
 
 ImPlay is a Cross-Platform Desktop Media Player, built on top of [mpv](https://mpv.io) and [ImGui](https://github.com/ocornut/imgui).
 
 ImPlay aims to be mpv compatible, which means almost all mpv features from the [manual](https://mpv.io/manual) are (or will be) available.
 
 # Features
-
+- Dark theme
 - Highly compatible with mpv
   - GPU Video Decoding
   - High Quality Video Output
@@ -42,11 +42,11 @@ ImPlay aims to be mpv compatible, which means almost all mpv features from the [
 - Cross platform: Window, Linux, macOS
 
 # Installation
-
-- Binary version: download from the [Releases](https://github.com/tsl0922/ImPlay/releases) page
-- Build from source: check the [Compiling](https://github.com/tsl0922/ImPlay/wiki/Compiling) document
-
-Read the [FAQ](https://github.com/tsl0922/ImPlay/wiki/FAQ).
+## MPV developnebt library binaries (mpv-dev-x86_64-v3.7z )  [!here](https://github.com/zhongfly/mpv-winbuild/releases)
+Unpack to third_party/mpv
+* Now if pulls freetype from github using CMake automatically.
+* Fixed minor build errors.
+* Just use cmake as usual.
 
 # Screenshots
 ### Context Menu

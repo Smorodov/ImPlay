@@ -186,6 +186,7 @@ void Window::installCallbacks(GLFWwindow* target) {
   glfwSetCursorPosCallback(target, [](GLFWwindow* window, double x, double y) {
     auto win = static_cast<Window*>(glfwGetWindowUserPointer(window));
     win->lastInputAt = glfwGetTime();
+    ImGui::StyleColorsDark();
     if (ImGui::GetIO().WantCaptureMouse) return;
 #ifdef __APPLE__
     float xscale, yscale;
