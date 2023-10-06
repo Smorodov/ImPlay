@@ -52,3 +52,4 @@ build
 
 vs2022/*.*
 build/*.*
+third_party/mpv/*.*
