@@ -50,6 +50,6 @@ build
 # VSCode files
 .vscode/
 
-vs2022/*
-build/*
-third_party/mpv/*
+/vs2022/*
+/build/*
+/third_party/mpv/*
